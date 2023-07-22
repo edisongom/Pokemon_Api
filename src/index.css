@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Puritan&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Puritan', sans-serif;
+}
+
+.App {
+  height: 100vh;
+}
+
+.active{
+  border-bottom: 3.2px solid #fff;
+}
+
+.no-active{
+  color: #3d3d3d;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: 16px;
+}
+
+nav {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(160, 160, 160);
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70vw;
+}
+
+#brand {
+  height: 36px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #4376a0;
+  color: #fff;
+}
+
+.home {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#pikachuHome {
+  height: 60vh;
+}
+
+.select-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#pokemon-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pokemon-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+  padding: 16px;
+  border: 1.6px solid #3d3d3d;
+  border-radius: 8px;
+}
+
+#pokemons {
+  margin: 16px;
+  width: auto;
+  height: 48px;
+  font-size: 19.2px;
+  justify-content: center;
+  align-items: center;
+}
+
+#details-button, #goback-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+  padding: 16px;
+  width: auto;
+  height: 48px;
+  font-size: 19.2px;
+}
+
+.not-found-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.not-found-container img {
+  height: 50%;
+}
